@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #cc85f3;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 4em;
+	font-family: sans-serif, 'Helvetica';
+}
+
+h2 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 3em;
+	font-family: sans-serif, 'Helvetica';
+}
+
+p {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 2.5em;
+	font-family: sans-serif, 'Helvetica';
+}
+
+img {
+	width: 100%;
+}
