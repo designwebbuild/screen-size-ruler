@@ -4,3 +4,6 @@ $(() => {
 		$('#result').text(windowSize);
 	});
 });
+
+
+

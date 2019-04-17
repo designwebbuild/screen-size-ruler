@@ -4,30 +4,59 @@
 }
 
 body {
-	background-color: #cc85f3;
+	background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Amatic SC', cursive;
 }
 
 h1 {
 	text-align: center;
 	margin-top: 50px;
 	font-size: 4em;
-	font-family: sans-serif, 'Helvetica';
+	font-weight: 700;
 }
 
 h2 {
 	text-align: center;
 	margin-top: 50px;
-	font-size: 3em;
-	font-family: sans-serif, 'Helvetica';
+	font-size: 4em;
+	font-weight: 400;
 }
 
 p {
 	text-align: center;
 	margin-top: 50px;
-	font-size: 2.5em;
-	font-family: sans-serif, 'Helvetica';
+	font-size: 4em;
+	font-weight: 400;
 }
 
 img {
 	width: 100%;
+	margin-top: 20px;
+}
+
+.container {
+	display: block;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.name {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+li, i {
+	display: inline;
+	font-size: 2em;
+	margin: 10px;
+	color: #000;
+	transition: 0.5s;
+}
+
+i:hover {
+	color: #fff;
 }
